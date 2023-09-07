@@ -13,19 +13,30 @@ The surface of the gallery is represented by a simple polygon. Art Gallery Theor
 n vertices, n/3 guards are always sufficient and sometimes necessary".
 
 ### Usage
-There is a Graphic Interface where you can draw a polygon. It has to be drawn by placing the vertices counterclockwise.
+There is a Graphic Interface where you can draw a simple polygon. It has to be drawn by placing the vertices ordered counterclockwise.
+Then you can triangulate it, do the application of the Art Gallery Theorem and know if the polygon is monotone or not.
 
 #### Commands
+Place the vertices with your mouse and left click.
 Press :
-- d (done drawing) -> when you have placed the final vertice.
-- 1, 2, 3 -> Polygon presets.
-- t (triangulate) -> to show the triangulation of the polygon.
-- c (3-coloring) -> You put your cameras on the minimum color (the polygon has to be triangulated).
-- r (refresh) -> refresh the graphic interface.
-- p (points & coordinates & order) -> show the vertices with coordinates and the order you drew them.
-- q (quit) -> quitting the graphic interface
+- **d (done drawing)** -> when you have placed the final vertice.
+- **1, 2, 3** -> Polygon presets.
+- **t (triangulate)** -> to show the triangulation of the polygon.
+- **c (3-coloring)** -> You put your cameras on the minimum color (the polygon has to be triangulated).
+- **r (refresh)** -> refresh the graphic interface.
+- **p (points & coordinates & order)** -> show the vertices with coordinates and the order you drew them.
+- **q (quit)** -> quitting the graphic interface
 
 #### Compile
 `ocamlfind ocamlc -package graphics -linkpkg Arbre_BR.ml Triangulation.ml Coloriage.ml Affichage.ml`
 
 ## Example
+
+### 1st Floor of Le Musée du Louvre :
+
+![image]()
+
+### Application :
+
+![output]()
+
