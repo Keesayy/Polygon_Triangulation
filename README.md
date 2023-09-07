@@ -32,11 +32,17 @@ Press :
 
 ## Example
 
-### 1st Floor of Le Musée du Louvre :
+### 1st Floor of Le Musée du Louvre
 
-![image]()
+![image](https://github.com/Keesayy/Polygon_Triangulation/blob/main/TIPE/images/plan_louvre.jpg)
 
-### Application :
+### Application
+
+#### Drawing
+
+![output]()
+
+#### Triangulation + Coloring
 
 ![output]()
 
