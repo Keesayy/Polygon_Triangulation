@@ -2,8 +2,9 @@
 
 This is my first project and it was made for a competitve exam, to enter in "Grandes Ecoles d'Ingénieur" in France after 2 years of "prépa" which can be translated to an intensive foundation degree.
 
-- [Presentation]()
-- [MCOT]()
+- [Presentation](https://github.com/Keesayy/Polygon_Triangulation/blob/main/TIPE/TIPE_Arthur_P%20.pdf
+)
+- [MCOT](https://github.com/Keesayy/Polygon_Triangulation/blob/main/TIPE/Mcot_28839_AP_Etape2.pdf)
 
 ## Art Gallery Problem
 
