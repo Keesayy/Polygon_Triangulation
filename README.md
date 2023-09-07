@@ -6,17 +6,17 @@ This is my first project and it was made for a competitve exam, to enter in "Gra
 )
 - [MCOT](https://github.com/Keesayy/Polygon_Triangulation/blob/main/TIPE/Mcot_28839_AP_Etape2.pdf)
 
-## Art Gallery Problem
+# Art Gallery Problem
 
 What is the minimum number of guards who together can observe the whole gallery ? \
 The surface of the gallery is represented by a simple polygon. Art Gallery Theorem : "To guard a simple polygon with 
 n vertices, n/3 guards are always sufficient and sometimes necessary".
 
-### Usage
+## Usage
 There is a Graphic Interface where you can draw a simple polygon. It has to be drawn by placing the vertices ordered counterclockwise.
 Then you can triangulate it, do the application of the Art Gallery Theorem and know if the polygon is monotone or not.
 
-#### Commands
+### Commands
 Place the vertices with your mouse and left click.
 Press :
 - **d (done drawing)** -> when you have placed the final vertice.
@@ -27,22 +27,22 @@ Press :
 - **p (points & coordinates & order)** -> show the vertices with coordinates and the order you drew them.
 - **q (quit)** -> quitting the graphic interface
 
-#### Compile
+### Compile
 `ocamlfind ocamlc -package graphics -linkpkg Arbre_BR.ml Triangulation.ml Coloriage.ml Affichage.ml`
 
-## Example
+# Example
 
-### 1st Floor of Le Musée du Louvre
+## 1st Floor of Le Musée du Louvre
 
 ![image](https://github.com/Keesayy/Polygon_Triangulation/blob/main/TIPE/images/plan_louvre.jpg)
 
-### Application
+## Application
 
-#### Drawing
+### Drawing
 
 ![output](https://github.com/Keesayy/Polygon_Triangulation/blob/main/drawlouvre.gif)
 
-#### Triangulation + Coloring
+### Triangulation + Coloring
 
 ![output](https://github.com/Keesayy/Polygon_Triangulation/blob/main/colorlouvre.gif)
 
