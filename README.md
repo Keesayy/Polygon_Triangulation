@@ -40,9 +40,9 @@ Press :
 
 #### Drawing
 
-![output]()
+![output](https://github.com/Keesayy/Polygon_Triangulation/blob/main/drawlouvre.gif)
 
 #### Triangulation + Coloring
 
-![output]()
+![output](https://github.com/Keesayy/Polygon_Triangulation/blob/main/colorlouvre.gif)
 
